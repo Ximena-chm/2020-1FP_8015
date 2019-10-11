@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main (int argc, chat *argu[]){
+int main (int argc, char *argu[]){
 	int numero;
 	numero=atoi(argu[1]);
 	if (numero%2==0){
