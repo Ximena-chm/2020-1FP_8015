@@ -7,13 +7,21 @@ int main (int argc, char *argv[]){
 	float rest;
 	float mult;
 	float divi;
+	float num1 
+	float num2
 
-	sum = atof(argv[1]) + atof(argv[2]);
-	rest = atof(argv[1]) - atof(argv[2]);
-	mult = atof(argv[1]) * atof(argv[2]);
-	divi = atof(argv[1]) / atof(argv[2]);
+	num1 = atof(argv[1])
+	num2 = atof(argv[2])
 
-	printf("Los resultados de las operaciones son: \n suma: %.2f \n resta: %.2f \n multiplicación: %.2f \n división: %.2f \n", sum, rest, mult, divi);
+	sum = num1 + num2;
+	rest = num1 - num2;
+	mult = num1 * num2;
+	divi = num1 / num2;
+
+	printf("Los resultados de las operaciones son: \n suma: %.2f ", sum);
+	printf("resta:%.2f", rest)
+	printf("multiplicacion:%.2f", multi)
+	printf("division:%.2f", divi)
 
 	return 0;
 }
