@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (int argc, char *argv[]){
+int main (int argc, char *argu[]){
 
 	float sum;
 	float rest;
@@ -10,8 +10,8 @@ int main (int argc, char *argv[]){
 	float num1 
 	float num2
 
-	num1 = atof(argv[1])
-	num2 = atof(argv[2])
+	num1 = atof(argu[1])
+	num2 = atof(argu[2])
 
 	sum = num1 + num2;
 	rest = num1 - num2;
