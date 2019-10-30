@@ -7,8 +7,8 @@ int main (int argc, char *argu[]){
 	float rest;
 	float mult;
 	float divi;
-	float num1 
-	float num2
+	float num1; 
+	float num2;
 
 	num1 = atof(argu[1])
 	num2 = atof(argu[2])
@@ -20,7 +20,7 @@ int main (int argc, char *argu[]){
 
 	printf("Los resultados de las operaciones son: \n suma: %.2f ", sum);
 	printf("resta:%.2f", rest)
-	printf("multiplicacion:%.2f", multi)
+	printf("multiplicacion:%.2f", mult)
 	printf("division:%.2f", divi)
 
 	return 0;
