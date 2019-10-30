@@ -4,6 +4,7 @@ int main (int argc, char *argu[]){
 
 float lista[argc], suma=0;
 float promedio;
+
 for (int i=1; i<argc; i++){
 	lista[i]=atoi(argu[i]);
 }
