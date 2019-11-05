@@ -12,6 +12,6 @@ int main (int argc, char * argu[]){
 		}
 		resultado=resultado/agui[i];
 		printf("%i\n", resultado);
-	}//utilizamos dos for para excluir al agu[i]
+	}//utilizamos dos for para poder excluir al agu[i]
 	return 0;
 }
