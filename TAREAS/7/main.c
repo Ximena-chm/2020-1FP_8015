@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
-int main(int argc, char *argv[]){
-	float potencia;
-	float x;
-	float y;
-	x=atof(argv[1]);
-	y=atof(agrv[2]);
+int main(int argc, char *argu[]){
+	float a, b, result =1;
+	a=atof(argu[1]);
+	b=atof(argu[2]);
 
-	potencia= pow(x, y);
-	printf("%.2lf\n", potencia);
+	for(int i=0; 1<num2; i++){
+		result=result*a;
+	}
+	printf("%.2lf\n", result);
 	return 0;
 }
