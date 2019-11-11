@@ -14,12 +14,12 @@ int main(int argc, char *argv[]){
 	if (x==0){
 		//cambio a fahrenheit
 		a=(1.8*y)+32;
-		printf("%.2f\n", a);
+		printf("%.2lf\n", a);
 	}
 	if (x==1){
 		//cambio a centigrados
 		b=(y-32)/1.8;
-		printf("%.2f\n", b);
+		printf("%.2lf\n", b);
 	}
 	return 0;
 }
