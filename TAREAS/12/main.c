@@ -6,7 +6,7 @@
 int saludos(int n){
 	int result;
 
-	if(x==2){
+	if(n==2){
 		//caso base
 		result=1;
 	}
