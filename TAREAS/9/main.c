@@ -9,14 +9,14 @@ int main(int argc, char *argu[]){
 	numero=strlen(argu[1]);
 
 	//lista de caracteres crea lista
-	char argc[numero];
+	char arguc[numero];
 	int resultado=0;
 	//nueva lista para guardar los numeros
 	int digitos[numero];
 
 	//Suma de caracteres
 	for(int i=0; i<numero; i++){
-		argc[i]=argu[1][i];//guardar en la lista de caracteres
+		arguc[i]=argu[1][i];//guardar en la lista de caracteres
 		digitos[i]=atoi(&arguc[i]);//guarda en la lista de numeros
 		//suma de dígitos por separado
 		resultado=resultado+digitos[i];
