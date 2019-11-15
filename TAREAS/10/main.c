@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 //al tener posibles números imaginarios, se hacen funciones pará los resultados reales, los imaginarios
 //y si existe sólo una solución 
 
